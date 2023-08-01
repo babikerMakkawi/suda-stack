@@ -1,0 +1,221 @@
+*{
+    font-family: system-ui;
+}
+.header{
+    background-color: #393939;
+}
+@media (min-width: 1200px)
+{
+    #main, #footer {
+    margin-left: 225px;
+    }
+}
+@media (min-width: 1200px){
+    .logo {
+    width: 190px !important;
+    }
+}
+.logo span{
+    color: #c4c8cc !important;
+    font-weight: 300;
+}
+
+.header .toggle-sidebar-btn {
+    color: #c4c8cc !important;
+}
+.header-nav .nav-icon,
+.header-nav .nav-profile{
+    color: #c4c8cc !important
+}
+.header-nav .profile .dropdown-header h6{
+    color: white;
+}
+@media (max-width: 1199px)
+{
+    .header .search-bar {
+    background: #393939;
+    }
+}
+.header-nav .profile .dropdown-item:hover {
+    background-color: #4f4f4f;
+    cursor: pointer;
+}
+.header-nav .messages .message-item h4{
+    color:#c4c8cc !important
+}
+.header-nav .notifications .notification-item:hover {
+    background-color: #4f4f4f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.footer{
+    border-top: 1px solid #696f75;
+}
+.footer .copyright {
+    color: #cecece;
+}
+.footer .credits{
+    color: white;
+}
+
+
+
+
+
+
+
+[type=search],[type=text],[type=password],[type=number],[type=email],textarea,select,.bootstrap-tagsinput{
+    color: #cfd2d6 !important;
+    background-color: #2d2d2d !important;
+    border-radius: 2px !important;
+    border: solid 1px #696f75 !important;
+}
+.bootstrap-tagsinput input{
+    border: none !important;
+}
+
+
+.bg-dark{
+    background-color: #393939 !important;
+}
+.sidebar{
+    background-color: #2d2d2d !important;
+    border-right: 1px solid rgb(105, 111, 117) !important;
+    width: 225px;
+}
+a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next){
+    color: #e8e9e9 !important;
+}
+a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next):hover{
+    color: white !important;
+}
+
+.list-group-item{
+    background-color: transparent!important;
+    border: none;
+}
+.sidebar-nav .nav-link.collapsed{
+    border-radius: 0;
+    background-color: transparent !important;
+    color: #c4c8cc !important;
+    font-weight: 300;
+}
+.sidebar-nav .nav-link.collapsed.active {
+    background-color: #3d3d3d !important;
+    border-right: 5px #f48225 solid !important;
+}
+.sidebar-nav .nav-link.collapsed i {
+    color: #c4c8cc !important;
+}
+.sidebar-nav .nav-link.collapsed:hover,
+.sidebar-nav .nav-link.collapsed i:hover{
+    color: white !important;
+}
+
+
+
+
+
+
+.card-title{
+    color: #c4c8cc !important;
+    font-weight: 300;
+}
+
+.user-post-details {
+    border-radius: 2px !important;
+    background-color: #d9eaf7 !important;
+}
+
+.filter {
+    position: absolute;
+    right: 3rem;
+    top: 15px;
+}
+
+
+
+.hljs {
+    background: #4c5c5e !important;
+}
+
+
+/*  */
+
+.form-control, .form-control:focus ,.bootstrap-tagsinput{
+    background-color: transparent;
+    transition: all .1s linear;
+    box-shadow: none;
+}
+.form-control ,.bootstrap-tagsinput{
+    color: hsla(0,0%,100%,.7);
+    min-height: auto;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    background-clip: padding-box;
+    appearance: none;
+    transition: all .2s linear;
+}
+
+/*  */
+
+
+
+
+
+
+
+.bootstrap-tagsinput {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.bootstrap-tagsinput .tag {
+    display: inline-flex;
+    align-items: center;
+    margin: 0.25rem;
+    padding: 0.1rem .75rem;
+    background-color: #54b4d3 !important;
+    color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.bootstrap-tagsinput .tag.active {
+    background-color: #28a745;
+}
+
+
+
+
+
+
+/* .tox * {
+    color: white !important;
+    border: none !important;
+    background-color: #333 !important;
+}
+.tox .tox-tbtn__select-chevron svg ,.tox .tox-collection__item-caret svg{
+    fill: white !important;
+}
+.tox .tox-collection__item-caret svg{
+    color: white !important;
+} */
+
+
+
+
+
+
+
+
