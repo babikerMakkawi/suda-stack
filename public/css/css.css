@@ -1,21 +1,26 @@
-*{
+* {
     font-family: system-ui;
 }
-.header{
+
+.header {
     background-color: #393939;
 }
-@media (min-width: 1200px)
-{
-    #main, #footer {
-    margin-left: 225px;
+
+@media (min-width: 1200px) {
+
+    #main,
+    #footer {
+        margin-left: 225px;
     }
 }
-@media (min-width: 1200px){
+
+@media (min-width: 1200px) {
     .logo {
-    width: 190px !important;
+        width: 190px !important;
     }
 }
-.logo span{
+
+.logo span {
     color: #c4c8cc !important;
     font-weight: 300;
 }
@@ -23,26 +28,31 @@
 .header .toggle-sidebar-btn {
     color: #c4c8cc !important;
 }
+
 .header-nav .nav-icon,
-.header-nav .nav-profile{
+.header-nav .nav-profile {
     color: #c4c8cc !important
 }
-.header-nav .profile .dropdown-header h6{
+
+.header-nav .profile .dropdown-header h6 {
     color: white;
 }
-@media (max-width: 1199px)
-{
+
+@media (max-width: 1199px) {
     .header .search-bar {
-    background: #393939;
+        background: #393939;
     }
 }
+
 .header-nav .profile .dropdown-item:hover {
     background-color: #4f4f4f;
     cursor: pointer;
 }
-.header-nav .messages .message-item h4{
-    color:#c4c8cc !important
+
+.header-nav .messages .message-item h4 {
+    color: #c4c8cc !important
 }
+
 .header-nav .notifications .notification-item:hover {
     background-color: #4f4f4f;
     cursor: pointer;
@@ -53,13 +63,15 @@
 
 
 
-.footer{
+.footer {
     border-top: 1px solid #696f75;
 }
+
 .footer .copyright {
     color: #cecece;
 }
-.footer .credits{
+
+.footer .credits {
     color: white;
 }
 
@@ -69,51 +81,66 @@
 
 
 
-[type=search],[type=text],[type=password],[type=number],[type=email],textarea,select,.bootstrap-tagsinput{
+[type=search],
+[type=text],
+[type=password],
+[type=number],
+[type=email],
+textarea,
+select,
+.bootstrap-tagsinput {
     color: #cfd2d6 !important;
     background-color: #2d2d2d !important;
     border-radius: 2px !important;
     border: solid 1px #696f75 !important;
 }
-.bootstrap-tagsinput input{
+
+.bootstrap-tagsinput input {
     border: none !important;
 }
 
 
-.bg-dark{
+.bg-dark {
     background-color: #393939 !important;
 }
-.sidebar{
+
+.sidebar {
     background-color: #2d2d2d !important;
     border-right: 1px solid rgb(105, 111, 117) !important;
     width: 225px;
 }
-a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next){
+
+a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next) {
     color: #e8e9e9 !important;
 }
-a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next):hover{
+
+a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-brand):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next):hover {
     color: white !important;
 }
 
-.list-group-item{
-    background-color: transparent!important;
+.list-group-item {
+    background-color: transparent !important;
     border: none;
 }
-.sidebar-nav .nav-link.collapsed{
+
+.sidebar-nav .nav-link.collapsed {
     border-radius: 0;
     background-color: transparent !important;
     color: #c4c8cc !important;
     font-weight: 300;
 }
+
 .sidebar-nav .nav-link.collapsed.active {
     background-color: #3d3d3d !important;
     border-right: 5px #f48225 solid !important;
 }
+
 .sidebar-nav .nav-link.collapsed i {
     color: #c4c8cc !important;
 }
+
 .sidebar-nav .nav-link.collapsed:hover,
-.sidebar-nav .nav-link.collapsed i:hover{
+.sidebar-nav .nav-link.collapsed i:hover {
     color: white !important;
 }
 
@@ -122,7 +149,7 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 
 
 
-.card-title{
+.card-title {
     color: #c4c8cc !important;
     font-weight: 300;
 }
@@ -147,13 +174,17 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 
 /*  */
 
-.form-control, .form-control:focus ,.bootstrap-tagsinput{
+.form-control,
+.form-control:focus,
+.bootstrap-tagsinput {
     background-color: transparent;
     transition: all .1s linear;
     box-shadow: none;
 }
-.form-control ,.bootstrap-tagsinput{
-    color: hsla(0,0%,100%,.7);
+
+.form-control,
+.bootstrap-tagsinput {
+    color: hsla(0, 0%, 100%, .7);
     min-height: auto;
     width: 100%;
     font-size: 1rem;
@@ -211,11 +242,3 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 .tox .tox-collection__item-caret svg{
     color: white !important;
 } */
-
-
-
-
-
-
-
-

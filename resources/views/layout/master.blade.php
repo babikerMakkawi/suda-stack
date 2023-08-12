@@ -11,7 +11,6 @@
     <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
 
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
     <link href="{{ asset('css/css.css') }}" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/a11y-dark.min.css" rel="stylesheet">
@@ -22,6 +21,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet" />
 
     <title>@yield('title', 'Suda Stack')</title>
+
+    @yield('style')
+
 </head>
 
 <body>

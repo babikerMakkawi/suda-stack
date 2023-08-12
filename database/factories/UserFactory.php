@@ -23,10 +23,11 @@ class UserFactory extends Factory
             'last_name' => fake()->lastName(),
             'email' => fake()->unique()->safeEmail(),
             'phone' => fake()->phoneNumber(),
-            'status' => rand(1,4),
+            'status' => rand(1, 4),
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'created_at' => fake()->dateTimeBetween('-1 year', 'now'),
         ];
     }
 
